@@ -1,0 +1,808 @@
+
+body {
+   font-family: Ubuntu, "times new roman", times, roman, serif;
+}
+.container{
+	margin-left:110px;
+	margin-right:110px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.headerHeight{
+	height:80px;
+}
+.navStylePhone{width:335px;
+}
+.socialNetworkAlign{
+    text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navBarPhoneHeight{
+	height:130px;
+}
+
+.certifiedUsers{
+	color: #3b3a3a;
+
+font-family: Ubuntu;
+
+font-size: 36px;
+
+font-weight: 400;
+
+letter-spacing: -1.37px;
+
+line-height: 43px;
+}
+* {
+box-sizing: border-box;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.footerNavAlign{
+        text-align: center;
+    }
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.chefLogo{
+	width:32px;
+	height:31px;
+}
+.margin-right-7{
+    
+    margin-right: 7px;
+}
+.margin-right-20{
+    margin-right: 20px;
+}
+[class*="col-"] {
+  float: left;
+  padding-left: 15px;
+    padding-right: 15px;
+}
+.headerStyle{
+color: #34404b;
+font-family: Ubuntu;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.4px;
+  
+}
+.textDecorationNone{
+      text-decoration: none;
+}
+html {
+ /* Style for "Get the en" */
+
+font-family: Ubuntu;
+letter-spacing: 0.6px;
+line-height: 30px;
+}
+
+    header{
+        /* Style for "Bg" */
+/*width: 1540px;*/
+
+background-color: #ffffff;
+    }
+    .enrollNowBanner{
+        /* Style for "Banner Bas" */
+/*width: 1541px;*/
+height: 498px;
+        background-color: #f2f2f2
+    }
+	
+	.navbarPhoneMargin{
+		margin-bottom: 20px;
+margin-top: 20px;
+	}
+	.bannerHeading{
+		color: #3b3a3a;font-family: 'Ubuntu', sans-serif;
+font-size: 31px;
+font-weight: 400;
+line-height: 43px;
+	}
+	.bannerSubHeading{
+		color: #2f2f2f;
+font-family: Ubuntu;
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 0.54px;
+line-height: 36px;
+        
+        
+	}
+.dsaCertificationHeading{
+    color: #3b3a3a;
+
+font-family: Ubuntu;
+
+font-size: 36px;
+
+font-weight: 400;
+
+letter-spacing: -1.37px;
+
+line-height: 43px;
+    
+}
+.dsaCertificationSubHeading{
+    color: #2f2f2f;
+
+font-family: Ubuntu;
+
+font-size: 18px;
+
+font-weight: 400;
+
+letter-spacing: 0.54px;
+
+line-height: 31px;
+    
+}
+    .examDate{
+        /* Style for "Rectangle" */
+/*width: 1540px;*/
+width: 100%;
+
+height: 118px;
+
+background-color: #2f2f2f;
+
+    }
+.examDateTopALign{
+        margin-top: 25px;
+
+}
+    .dsaCertification{
+        /* Style for "Main BG" */
+/*width: 1540px;*/
+height: 548px;
+background-color: #f4f6f8;
+    }
+    .div5{
+        /* Style for "Rectangle" */
+/*width: 1541px;*/
+height: 896px;
+background-color: #ffffff;
+    }
+
+    .div6{
+        /* Style for "Main BG" */
+/*width: 1540px;*/
+height: 797px;
+background-color: #f4f6f8;
+    }
+    .div7{
+        /* Style for "Rectangle" */
+/*width: 1541px;*/
+height: 3734px;
+background-color: #ffffff;
+    }
+    .div8{
+        height: 795px;
+
+background-color: #f2f2f2;
+
+    }
+	/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+.float-right{ 
+	float:right;
+}
+.float-inherit{
+	float:inherit;
+}
+.detailAlignRight{
+    float: right;
+}
+
+.detailAlignLeft{
+    float: left;
+}
+
+.leftHeading{
+    text-align:left;
+}
+.navbarOptions{
+	font-family: Ubuntu;
+
+font-size: 16px;
+
+font-weight: 400;
+
+line-height: 19.2px;
+}
+.navbarOptionSelected{
+	color: #ff5912;
+	font-family: Ubuntu;
+
+font-size: 16px;
+
+font-weight: 400;
+
+line-height: 19.2px;
+}
+
+.levelOptions{
+    color: #ff5912;
+
+font-family: Ubuntu;
+
+font-size: 16px;
+
+font-weight: 400;
+
+letter-spacing: 0.48px;
+
+line-height: 36px;
+}
+.levelOptionSelected{
+    color: #3b3a3a;
+
+font-family: Ubuntu;
+
+font-size: 16px;
+
+font-weight: 700;
+
+letter-spacing: 0.48px;
+
+line-height: 36px;
+}
+
+ .footerNav{
+        color: #28313b;
+
+
+
+font-family: Ubuntu;
+
+
+
+font-size: 14px;
+
+
+
+font-weight: 400;
+
+
+
+line-height: 30px;
+
+
+    }
+.activeFooterLink{
+    
+    /* Text style for "Home" */
+
+
+
+color: #ff5912;
+}
+.sittingChef {
+    position: absolute;
+    right: 1px;
+    top: 617px;
+    width: 140px;
+    height: 100px;
+}
+.priceCallout{
+    background-image: url(../images/calloutMobile.svg);
+    background-repeat: no-repeat;
+    width: 282px;
+height: 301px;
+}
+.callOutDetails{
+    color: #2f2f2f;
+
+font-family: Ubuntu;
+
+font-size: 22px;
+
+font-weight: 400;
+
+letter-spacing: 0.66px;
+
+line-height: 36px;
+    }
+.callOutAlign{
+    margin-left: 20px;
+}
+.calloutDetailsAlign{
+    margin-top: 80px;
+}
+.coursePrice{
+    color: #696969;
+
+font-family: Ubuntu;
+
+font-size: 22px;
+
+font-weight: 700;
+
+letter-spacing: 0.66px;
+
+line-height: 36px;
+}
+.enrollButton2{
+    margin-top: 60px;
+
+margin-left: -13px;
+}
+.syllabus{
+        color: #ff5912;
+
+font-family: Ubuntu;
+
+font-size: 20px;
+
+font-weight: 400;
+
+letter-spacing: 0.6px;
+
+line-height: 36px;
+        text-decoration: none;
+        
+    }
+.photoDivMargin{
+		margin-bottom: 20px;
+		margin-left: 35px;
+	}
+	.SliderPhotoDivMargin{
+			margin-bottom: 20px;
+		margin-left: 35px;
+	}
+	 #sliderDesktopDiv{
+		 display:none;
+	 }
+	  #sliderMobileDiv{
+		  display:block;
+	 }
+/*FOR DESKTOP*/
+@media only screen and (min-width: 768px) {
+	
+	 #sliderDesktopDiv{
+		 display:block;
+	 }
+	 #sliderMobileDiv{
+		  display:none;
+	 }
+  /* For desktop: */
+  .headerHeight{
+	height:65px;
+}
+.navStylePhone{margin-right: auto;
+}
+    
+.navBarPhoneHeight{
+	height:100px;
+}
+.navbarPhoneMargin{
+		margin-bottom: auto;
+margin-top: auto;
+	}
+	.navbarDesktopBrandMargin{
+		margin-top:35px;
+	}
+	.navbarDesktopMargin{
+		margin-top:50px;
+	}
+	.bannerHeading{
+		color: #34404b;font-family: 'Ubuntu', sans-serif;
+font-size: 44px;
+font-weight: 400;
+line-height: 53px;
+margin-bottom: 30px;
+margin-top:140px;
+	}
+	.priceCallout{
+    background-image: url(../images/Path_1381.svg);
+    background-repeat: no-repeat;
+        width: 535px;
+height: 173px;
+}
+    .callOutAlign{
+ margin-left: -45px;
+}
+    .coursePrice{
+        color: #34404b;
+font-family: Ubuntu;
+font-size: 20px;
+font-weight: 700;
+letter-spacing: 0.6px;
+line-height: 36px;
+    }
+.calloutDetailsAlign{
+  margin-left: 65px;
+
+margin-top: 10px;
+}
+	.bannerSubHeading{
+		color: #34404b;
+font-family: Ubuntu;
+font-size: 24px;
+font-weight: 400;
+letter-spacing: 0.72px;
+line-height: 36px;
+margin-bottom: 66px;
+	}
+	.bannerMargin{
+		margin-left: 155px;
+	}
+	.sittingChef {
+   position: absolute;
+right: 82px;
+
+width: 186px;
+height: 145px;
+top: 527px;
+}
+ .examDate{
+height: 60px;
+background-color: #2f2f2f;
+width: auto;
+    }
+    .enrollButton2{
+        margin-top: 45px;
+
+margin-left: 47px;
+    }
+.examDateTopALign{
+        margin-top:auto;
+    margin-left: 155px;
+
+}
+    .detailAlignRight{
+    float: none;
+       
+}
+    .examDateDesktopAlign{
+        margin-top: 12px;
+    }
+    .examDateMidGap{
+        margin-right: 30px;
+    }
+
+.detailAlignLeft{
+    
+    float: none;
+}
+    .callOutDetails{
+        color: #2f2f2f;
+
+font-family: Ubuntu;
+
+font-size: 22px;
+
+font-weight: 400;
+
+letter-spacing: 0.66px;
+
+line-height: 36px;
+    }
+     .dsaCertification{
+        /* Style for "Main BG" */
+/*width: 1540px;*/
+height: 455px;
+background-color: #f4f6f8;
+    }
+    .centeredHeading{
+        text-align: center;
+    }
+    .alignLevelHeading{
+    text-align:center;
+}
+    .LevelsHeading{
+        color: #3b3a3a;
+
+font-family: Ubuntu;
+
+font-size: 36px;
+
+font-weight: 400;
+
+letter-spacing: -1.37px;
+
+line-height: 43px;
+    }
+	.photoDiv{
+		width: 221px;
+height: 396px; background: linear-gradient(to right, #f7f7f7, #f7f7f7 60%, white 40%);border:1px solid grey;
+	}
+    .levelOptMarginRight{
+        margin-right: 50px;
+        
+    }
+    .levelOptMarginLeft{
+        margin-left: 280px;
+    }
+    
+    .levelOptions{
+    
+
+color: #ff5912;
+
+font-family: Ubuntu;
+
+font-size: 24px;
+
+font-weight: 400;
+
+letter-spacing: 0.72px;
+
+line-height: 36px;
+}
+.levelOptionSelected{
+   color: #34404b;
+
+font-family: Ubuntu;
+
+font-size: 20px;
+
+font-weight: 700;
+}
+    .syllabus{
+        color: #ff5912;
+
+font-family: Ubuntu;
+
+font-size: 20px;
+
+font-weight: 400;
+
+letter-spacing: 0.6px;
+
+line-height: 36px;
+    text-decoration: none;
+    }
+	.photoDiv{
+		width: 221px;
+height: 396px; background: linear-gradient(to right, #f7f7f7, #f7f7f7 60%, white 40%);border:1px solid grey;
+	}
+	.photoDivMargin{
+		margin-bottom: auto;
+		
+	}
+	.SliderPhotoDivMargin{
+			margin-bottom: auto;
+			margin-left:110px;
+	}
+	.certifiedUsersMargin{
+		margin-top:100px;
+	}
+	.certifiedUsers{
+	color: #3b3a3a;
+
+font-family: Ubuntu;
+
+font-size: 36px;
+
+font-weight: 400;
+
+letter-spacing: -1.37px;
+
+line-height: 43px;
+margin-bottom:50px;
+}
+    
+.div7{
+        /* Style for "Rectangle" */
+/*width: 1541px;*/
+height: 1226px;
+background-color: #ffffff;
+    }
+    li {
+  display: inline;
+}
+    .footerNav{
+        color: #34404b;
+
+margin-right: 30px;
+
+font-family: Ubuntu;
+
+
+
+font-size: 16px;
+
+
+
+font-weight: 400;
+
+
+
+line-height: 19.2px;
+    }
+    .activeFooterLink{
+    
+    /* Text style for "Home" */
+
+
+
+color: #34404b;
+}
+    .footerNavBrand{
+        margin-right: 30px;
+    }
+    
+    .footerNavAlign{
+        text-align: left;
+    }
+    .div8{
+        height: 302px;
+
+
+
+background-color: #f2f2f2;
+    }
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+/*@media only screen 
+and (min-device-width : 360px)  {
+.sittingChef {
+    position: absolute;
+right: 1px;
+bottom: -49px;
+width: 140px;
+height: 100px;
+}
+}
+
+@media only screen 
+and (min-device-width :375px)  {
+.sittingChef {
+    position: absolute;
+right: 1px;
+bottom: -49px;
+width: 140px;
+height: 100px;
+}
+}*/
+
+/**/
+
+//375 * 667
+/**/
+
+
+//375 * 812
+/*position: absolute;
+right: 1px;
+bottom: 96px;
+width: 140px;
+height: 100px;*/
+
+//360 * 740
+/*position: absolute;
+right: 1px;
+bottom: 24px;
+width: 140px;
+height: 100px;*/
+
+//412 * 732
+/*position: absolute;
+right: 1px;
+bottom: 16px;
+width: 140px;
+height: 100px;*/
+
+
+//411 * 823
+/*position: absolute;
+right: 1px;
+bottom: 107px;
+width: 140px;
+height: 100px;*/
+
