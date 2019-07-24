@@ -444,6 +444,12 @@ line-height: 36px;
         text-decoration: none;
         
     }
+	.navbarButton{
+		background-color:inherit;
+		border: none;
+		width: max-content;
+		height: max-content;
+	}
 .photoDivMargin{
 		margin-bottom: 20px;
 		margin-left: 35px;
@@ -749,60 +755,5 @@ background-color: #f2f2f2;
   .col-12 {width: 100%;}
 }
 
-/*@media only screen 
-and (min-device-width : 360px)  {
-.sittingChef {
-    position: absolute;
-right: 1px;
-bottom: -49px;
-width: 140px;
-height: 100px;
-}
-}
 
-@media only screen 
-and (min-device-width :375px)  {
-.sittingChef {
-    position: absolute;
-right: 1px;
-bottom: -49px;
-width: 140px;
-height: 100px;
-}
-}*/
-
-/**/
-
-//375 * 667
-/**/
-
-
-//375 * 812
-/*position: absolute;
-right: 1px;
-bottom: 96px;
-width: 140px;
-height: 100px;*/
-
-//360 * 740
-/*position: absolute;
-right: 1px;
-bottom: 24px;
-width: 140px;
-height: 100px;*/
-
-//412 * 732
-/*position: absolute;
-right: 1px;
-bottom: 16px;
-width: 140px;
-height: 100px;*/
-
-
-//411 * 823
-/*position: absolute;
-right: 1px;
-bottom: 107px;
-width: 140px;
-height: 100px;*/
 
